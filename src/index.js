@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Tekkom from "./tekkom";
+import News from "./news";
 ReactDOM.render(
   <React.StrictMode>
-    <Tekkom />
+    <News />
   </React.StrictMode>,
   document.getElementById("root")
 );
