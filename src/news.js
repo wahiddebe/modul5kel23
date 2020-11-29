@@ -38,7 +38,7 @@ export default class News extends Component {
           {this.state.news.map((results, index) => {
             return (
               <div className="card p-5" key={results.id}>
-                <a href={results.url} terget={"_blank"}>
+                <a href={results.url} >
                   <div className="card-body">
                     <h3 className="card-title">{results.title}</h3>
                     <img
